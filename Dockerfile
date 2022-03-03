@@ -90,7 +90,6 @@ RUN \
  apt-get install -y \
 	curl \
 	patch \
-  sudo \
 	tzdata && \
  echo "**** generate locale ****" && \
  locale-gen en_US.UTF-8 && \
